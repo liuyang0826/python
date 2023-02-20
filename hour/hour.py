@@ -59,4 +59,3 @@ driver.find_element(by=By.CSS_SELECTOR, value="#content_deal_comment").send_keys
 if auto_submit:
   driver.find_element(by=By.CSS_SELECTOR, value="#_dealSubmit").click()
   driver.quit()
-  exit(0)
